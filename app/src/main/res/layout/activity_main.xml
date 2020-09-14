@@ -7,10 +7,24 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <Button
+        android:id="@+id/btn_async"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AsyncTask 호출"/>
+
+    <Button
+        android:id="@+id/btn_rxjava"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_async"
+        android:text="RxJava호출"/>
+
     <androidx.recyclerview.widget.RecyclerView
         android:id='@+id/recyclerView'
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_below="@+id/btn_rxjava"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
 
 </RelativeLayout>
