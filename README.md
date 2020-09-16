@@ -1,7 +1,7 @@
 # Asynstask-Rxjava 비동기 예제
 
 Android 11에서 AsyncTask가 Deprecated에 대한 글
-(https://android-review.googlesource.com/c/platform/frameworks/base/+/1156409)
+<br/>(https://android-review.googlesource.com/c/platform/frameworks/base/+/1156409)
 
 <br/><br/>
 
